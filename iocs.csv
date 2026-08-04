@@ -1,0 +1,38 @@
+Tipo,Valor,Descripcion,Fuente,Fecha
+IP,156.192.200.248,IP de estafador Dark Storm Team,@MRHELL112scammer,2026-07-14
+IP,188.114.97.3,Panel de admin mail-boy.com,kittysearchnews,2026-07-14
+IP,45.56.85.165,Panel de admin tonyrao.ampbk.com,kittysearchnews,2026-07-14
+IP,167.71.242.13,Panel de admin compras.centive.com.br,kittysearchnews,2026-07-14
+IP,91.213.96.53,phpMyAdmin telvinet.pl,kittysearchnews,2026-07-14
+IP,5.135.187.13,phpMyAdmin pros.ophony.com,kittysearchnews,2026-07-14
+IP,185.13.5.54,Panel de admin privat-advokat.com.ua,kittysearchnews,2026-07-14
+IP,122.166.144.238:8081,Panel de control CCTV,cybercrewagain,2026-07-14
+IP,106.51.185.161:9011,Panel de control CCTV,cybercrewagain,2026-07-14
+IP,122.176.23.18:9018,Panel de control CCTV,cybercrewagain,2026-07-14
+IP,91.234.42.249:8888,CCTV en Ucrania,cybercrewagain,2026-07-14
+IP,46.101.228.243,Objetivo nettlecloud.com (puertos:80,443,8080,9080,7443),@KILLNETddos,2022-05-22
+IP,164.92.191.246,Objetivo nettlecloud.com (puertos:80,443,9443,11443),@KILLNETddos,2022-05-22
+IP,164.92.160.242,Objetivo nettlecloud.com (puertos:80,443,1443,9443,11443),@KILLNETddos,2022-05-22
+IP,157.90.72.85,Objetivo nettlecloud.com (puertos:6443,8080),@KILLNETddos,2022-05-22
+IP,188.166.123.124,Objetivo nettlecloud.com (puertos:80,443),@KILLNETddos,2022-05-22
+Dominio,admin-staging.mail-boy.com,Panel de administracion,kittysearchnews,2026-07-14
+Dominio,tonyrao.ampbk.com,Panel de admin,kittysearchnews,2026-07-14
+Dominio,compras.centive.com.br,Panel de admin,kittysearchnews,2026-07-14
+Dominio,phpmyadmin.websrv09.telvinet.pl,phpMyAdmin,kittysearchnews,2026-07-14
+Dominio,pros.ophony.com,phpMyAdmin,kittysearchnews,2026-07-14
+Dominio,privat-advokat.com.ua,Panel de admin,kittysearchnews,2026-07-14
+Dominio,xssf.net,Foro IT Army of Russia,itarmyofrussianews,2026-07-14
+Dominio,forum.duty-free.cc,Foro de ciberdelincuencia,DutyFreeForum,2026-07-14
+Telegram,@WeAreKillnet_Support,Soporte de Killnet,OSINT,2026-07-14
+Telegram,@KillBox_Official,Venta de KillBox,OSINT,2026-07-14
+Telegram,@MatrixMaps,Plataforma de inteligencia,OSINT,2026-07-14
+Telegram,@noname05716_esp,NoName057(16) en español,OSINT,2026-07-14
+Telegram,@zpentest_fucknato,Z-Pentest Alliance,OSINT,2026-07-14
+Telegram,@KillNetSyndicate,Sindicato de Killnet,OSINT,2026-07-14
+Telegram,@AnaJak_NX,Líder #OpThailand,OSINT,2026-07-14
+Telegram,@NXBBSEC,Ejecutor #OpThailand,OSINT,2026-07-14
+Telegram,@DutyFreeForum,Foro criminal,OSINT,2026-07-14
+Telegram,@DataPremium_SSSO,Mercado negro,OSINT,2026-07-14
+Wallet,GDIKMIUVR5D2RTPXS2KFKD3VMQQ3AFSCYYEATKYWFXJUZSMSEZ3OFOXG,Estafa Tesla Viva,QuantumStellarInitiative,2026-07-14
+Wallet,GAFQBCA4JSNKGQU5QL5RPIKHI5LOPKU2QSVR7G4AR3J7B5DV35ZUWOEC,Estafa ARCTHRESHOLD,QuantumStellarInitiative,2026-07-14
+Wallet,GBDZ4GYA6LSYMEWPJKGNF7XIEGPIDM5HA2MCQFAAKFC3XAYGTSB3DCMC,Estafa INDELEGATA,QuantumStellarInitiative,2026-07-14
