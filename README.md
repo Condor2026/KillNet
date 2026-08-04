@@ -147,6 +147,8 @@
 
 ---
 
+![TheCondor](CTI_ECO_SISTEM_KILLNET.png)
+
 ## 1. RESUMEN EJECUTIVO Y HALLAZGOS CRÍTICOS
 
 El análisis exhaustivo de más de **9,000 eventos** de inteligencia de fuentes abiertas (OSINT), provenientes de **40+ canales de Telegram**, **documentación interna filtrada** y **reportes de agencias internacionales**, revela un ecosistema de amenazas prorrusas que ha evolucionado desde un grupo de ciberdelincuentes hasta una **red global de guerra híbrida**.
