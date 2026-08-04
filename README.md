@@ -1,5 +1,9 @@
 # INFORME DEFINITIVO DE SEGURIDAD: EL ECOSISTEMA COMPLETO
 
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=500&color=00FF00&center=true&vCenter=true&width=720&lines=KILLNET+ECOSYSTEM+%7C+INTELLIGENCE+REPORT;Cyber+Threat+Intelligence+%28CTI%29;KillNet+%7C+NoName057(16)+%7C+Holy+League;Threat+Landscape+Analysis;Infrastructure+%7C+Affiliations+%7C+IOCs;Campaigns+%7C+MITRE+ATT%26CK+%7C+TTPs;OSINT+Research+by+The+Condor" alt="Typing animation" />
+</p>
+
 ![ThECondor](KILLNETDOSSIER.png)
 
 ## Killnet, NoName057(16), DDoSia y el Nuevo Orden del Ciberespacio
