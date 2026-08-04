@@ -2,29 +2,54 @@
 
 ## 📡 Reportar una Vulnerabilidad
 
-**No abras un issue público.** Contacta al autor por canales privados.
+Si descubres una vulnerabilidad de seguridad, información sensible que no debería ser pública, o un Indicador de Compromiso (IOC) crítico:
 
-## ✅ Lo que se reporta
+**NO abras un issue público.** 
 
-- IOCs (IPs, dominios, hashes maliciosos)
-- Nuevas TTPs
-- Actores de amenazas no documentados
-- Credenciales activas en el repositorio
+### Contacto
+- **Reporta a:** Contacta al autor a través de los canales establecidos en el README
+- **Tiempo de respuesta:** 24-48 horas
+- **Confidencialidad:** Todos los reportes se manejarán de forma confidencial
 
-## 🔒 Lo que NO se reporta
+---
 
-- Información clasificada
-- Datos personales no relacionados
+## ✅ Lo que se debe reportar
 
-## 🛡️ Recomendaciones
+| Categoría | Ejemplos |
+|:---|:---|
+| **Indicadores de Compromiso (IOCs)** | IPs maliciosas, dominios, hashes, URLs |
+| **Nuevas TTPs** | Tácticas, técnicas y procedimientos no documentados |
+| **Actores de amenazas** | Nuevos grupos, canales de Telegram, alias |
+| **Información de víctimas** | Datos sensibles no anonimizados en el repositorio |
+| **Credenciales activas** | Usuarios y contraseñas válidas filtradas |
+| **Vulnerabilidades 0-day** | Exploits no parchados mencionados en el dossier |
 
-- Implementar MFA en todos los accesos
-- Segmentar redes OT/IT
-- Monitorizar canales de Telegram
-- Actualizar credenciales filtradas
+---
 
-## 📜 Divulgación Responsable
+## 🔒 Lo que NO se debe reportar
 
-1. Reporte privado
-2. Validación
-3. Coordinación para publicación
+- Información clasificada gubernamental
+- Datos personales no relacionados con la amenaza
+- Vulnerabilidades en sistemas activos sin coordinación previa
+- Información de fuentes no verificadas
+
+---
+
+## 📋 Proceso de Reporte de Seguridad
+
+1 IDENTIFICACIÓN
+↓
+
+2 DOCUMENTACIÓN (con detalles y evidencias)
+↓
+
+3 CONTACTO PRIVADO con el autor
+↓
+
+4 VALIDACIÓN del reporte
+↓
+
+5 COORDINACIÓN para la publicación
+↓
+
+6 DIVULGACIÓN PÚBLICA (cuando sea apropiado)
