@@ -1,5 +1,7 @@
 # INFORME DEFINITIVO DE SEGURIDAD: EL ECOSISTEMA COMPLETO
 
+![ThECondor](KILLNETDOSSIER.png)
+
 ## Killnet, NoName057(16), DDoSia y el Nuevo Orden del Ciberespacio
 
 ---
