@@ -1644,8 +1644,526 @@ Fuente: @nullsechackers (21/05/2026)
 
 **Fin del Anexo de Correlaciones y Grupos Faltantes**
 
+---
+
+# INFORME SECUNDARIO: TENDENCIAS Y AMENAZAS EMERGENTES
+## Período: Mayo 2026 (Contexto Ampliado)
+
+---
+
+## 🔍 RESUMEN EJECUTIVO DEL CONTEXTO AMPLIADO
+
+Este informe complementa el dossier principal con hallazgos adicionales que refuerzan y contextualizan las amenazas identificadas. La información recopilada de múltiples fuentes confirma patrones críticos:
+
+1. **El ransomware resurge con fuerza**: Aumento del 48% interanual en ataques de ransomware durante mayo de 2026
+2. **El vishing se consolida como vector principal**: Los ataques de ingeniería social telefónica están superando al MFA tradicional
+3. **Los modelos de IA como Mythos están transformando el panorama**: Capacidad para encadenar vulnerabilidades y generar ataques sincronizados
+4. **El sector telecomunicaciones es el blanco preferido**: Múltiples ataques a operadores europeos y americanos
+
+---
+
+## 📊 ANÁLISIS DE TENDENCIAS GLOBALES
+
+### 1. Estadísticas Globales de Ciberataques (Mayo 2026)
+
+```
+📊 CHECK POINT RESEARCH - MAYO 2026:
+├── Ataques semanales por organización: 2,055
+├── Variación interanual: +2%
+├── Variación mensual: -7%
+└── Ransomware: +48% (máximo del año)
+
+🏢 SECTORES MÁS AFECTADOS:
+├── Educación: 4,641 ataques/semana
+├── Gobierno: 2,620 ataques/semana
+└── Telecomunicaciones: 2,583 ataques/semana
+```
+
+### 2. Patrón de Ataque: El Vishing como Vector Principal
+
+El análisis del incidente de Odido Telecom confirma el **patrón de ataque que ha definido el primer semestre de 2026**:
+
+```
+🔍 CADENA DE ATAQUE TÍPICA (VISHING + SALESFORCE):
+├── Fase 1: Phishing a empleados de atención al cliente
+├── Fase 2: Vishing (llamada telefónica) para bypass de MFA
+├── Fase 3: Acceso válido al CRM/Salesforce
+├── Fase 4: Exportación masiva de datos
+└── Fase 5: Extorsión y filtración en darknet
+
+📋 CASO ODIDO TELECOM (FEBRERO-MAYO 2026):
+├── Víctima: Mayor operador móvil de Países Bajos
+├── Datos expuestos: 6.2 millones de clientes
+├── Información comprometida: Nombres, direcciones, IBANs, datos de ID
+├── Grupo responsable: ShinyHunters (misma táctica que Charter, 7-Eleven)
+├── Desarrollo en mayo: Odido descarta compensación; se organizan acciones masivas bajo GDPR
+└── Demanda de rescate: ≈€1 millón
+
+⚠️ LECCIÓN CLAVE:
+El MFA basado en push notifications es vulnerable al vishing.
+La solución es MFA resistente a phishing (FIDO2/WebAuthn).
+```
+
+---
+
+## 🔗 CORRELACIONES CON EL DOSSIER PRINCIPAL
+
+### 1. El Vishing: El Eslabón Perdido en Charter Communications
+
+El incidente de Odido Telecom confirma el **patrón de ataque utilizado por ShinyHunters** que ya habíamos documentado en Charter Communications:
+
+```
+🔗 CORRELACIÓN DIRECTA:
+├── Charter Communications (24/05/2026): 42M registros
+├── Odido Telecom (Febrero/Mayo 2026): 6.2M registros
+└── Vector común: Vishing + Salesforce → Exportación masiva
+
+📋 IMPLICACIONES PARA TU DOSSIER:
+El análisis del Odido breach proporciona evidencia adicional del
+modus operandi de ShinyHunters que debe ser incluido en la sección
+de TTPs del informe principal.
+```
+
+### 2. The Gentlemen: Nuevas Técnicas Documentadas
+
+Se ha confirmado actividad de The Gentlemen explotando **vulnerabilidades en Fortinet y Cisco** para comprometer redes empresariales:
+
+```
+📋 THE GENTLEMEN - TÉCNICAS IDENTIFICADAS:
+├── Vector: Explotación de equipos perimetrales
+├── Vulnerabilidades: Fortinet y Cisco
+├── Payload: Cifrador personalizado
+├── Modelo: Ransomware-as-a-Service (RaaS)
+└── Táctica: Doble extorsión (cifrado + filtración)
+
+🔗 CORRELACIÓN CON EL DOSSIER:
+Esta campaña confirma la actividad del grupo The Gentlemen
+documentada en el informe principal (filtración de chats internos,
+operaciones con EtherRat y TukTuk C2).
+```
+
+---
+
+## 🆕 AMENAZAS EMERGENTES IDENTIFICADAS
+
+### 1. Mythos de Anthropic: La Nueva Frontera de las Amenazas
+
+El Banco de España ha emitido una **advertencia específica sobre Mythos**, el modelo de IA de Anthropic:
+
+```
+⚠️ ALERTA DEL BANCO DE ESPAÑA (MAYO 2026):
+├── Capacidad: Identificación autónoma de vulnerabilidades 0-day
+├── Riesgo: Encadenamiento de fallos para crear ataques complejos
+├── Amenaza: "Olas sincronizadas y extensas de ciberataques"
+├── Problema: Ventana limitada para la preparación
+└── Preocupación: Europa excluida del Proyecto Glasswing
+
+📋 IMPLICACIONES:
+- La IA puede reducir drásticamente el tiempo entre descubrimiento y explotación
+- Los ataques pueden ser coordinados a escala global
+- El sector financiero europeo está en riesgo por dependencia de pocos proveedores
+- Se requiere inversión adicional en ciberseguridad
+```
+
+### 2. Incidentes de Telecomunicaciones: Ataques Masivos
+
+El sector de telecomunicaciones ha sido blanco de múltiples ataques en mayo de 2026:
+
+| Operador | País | Fecha | Impacto | Grupo Responsable |
+|----------|------|-------|---------|-------------------|
+| Odido | Países Bajos | Feb/Mayo 2026 | 6.2M clientes | ShinyHunters |
+| Salt | Suiza | 15/05/2026 | Caída de red 40 min | Desconocido (DDoS) |
+| Antel | Uruguay | 07/05/2026 | TuID Digital comprometido | LaPampaLeaks |
+
+```
+📋 CORRELACIÓN CON EL DOSSIER:
+├── Odido se suma a Charter Communications (42M clientes)
+├── Patrón de ShinyHunters: Vishing + Salesforce
+├── Aumento de ataques DDoS contra telecomunicaciones
+└── Confirmación de tendencia: El sector telco es prioritario
+```
+
+### 3. Malware Activo: Campañas en Mayo 2026
+
+Se han documentado campañas activas de múltiples malware durante mayo:
+
+| Malware | Tipo | Vector | Objetivo |
+|---------|------|--------|----------|
+| Lumma Stealer | Infostealer | Phishing, updates falsos | Credenciales, cookies, datos financieros |
+| Amadey Botnet | Botnet | Phishing | Distribución de ransomware y malware bancario |
+| QuasarRAT | RAT | Archivos adjuntos, navegación | Control remoto de sistemas |
+| QBot | Troyano bancario | Phishing empresarial | Credenciales, propagación |
+
+```
+🔗 CORRELACIÓN CON EL DOSSIER:
+Estas campañas de malware confirman el ecosistema de amenazas
+descrito en el informe principal, donde el phishing sigue siendo
+el vector principal y los infostealers son la antesala del ransomware.
+```
+
+### 4. Ataques a Infraestructura Crítica
+
+- **CNMC (España)**: Ataque DDoS que dejó fuera de servicio la web del regulador de telecomunicaciones y energía
+- **Salt (Suiza)**: Ataque DDoS dirigido que causó caída del servicio de internet durante 40 minutos
+- **Antel (Uruguay)**: Filtración de datos en plataforma TuID Digital por grupo LaPampaLeaks
+
+```
+🔗 CORRELACIÓN CON EL DOSSIER:
+Estos incidentes complementan los ataques documentados a
+infraestructuras críticas en el informe principal:
+- Agencia Espacial Europea
+- Base militar Bangladesh
+- Compresor en Polonia
+```
+
+---
+
+## 📊 ANÁLISIS DE RIESGO POR SECTOR
+
+### 1. Sector Financiero
+
+```
+🏦 RIESGO FINANCIERO - MAYO 2026:
+├── Advertencia del BCE: Inversión insuficiente en ciberseguridad
+├── Alerta del Banco de España: Mythos como amenaza sistémica
+├── Aumento de ataques en Nuevo León, México
+└── Doble amenaza: Fraude financiero + interrupción operativa
+
+⚠️ VULNERABILIDADES CRÍTICAS:
+├── Dependencia de pocos proveedores tecnológicos
+├── Sistemas heredados (legacy)
+├── MFA basado en push (vulnerable a vishing)
+└── Exportación masiva desde CRMs
+```
+
+### 2. Sector Telecomunicaciones
+
+```
+📡 RIESGO TELECOM - MAYO 2026:
+├── 2,583 ataques/semana (segundo sector más atacado)
+├── ENISA Telecom Security Forum: Enfoque en resiliencia y subsea cables
+├── Ataques a Odido, Salt, Antel
+└── Impacto: Datos de clientes + interrupción de servicio
+```
+
+---
+
+## 🛡️ RECOMENDACIONES ADICIONALES
+
+### 1. Mitigación del Vishing
+
+```
+📞 RECOMENDACIONES CONTRA VISHING:
+├── Implementar MFA resistente a phishing (FIDO2/WebAuthn)
+├── Capacitar al personal de helpdesk en identificación de vishing
+├── Monitorear picos de aprobaciones MFA
+├── Limitar exportaciones masivas por identidad
+└── Restringir exportaciones a IPs conocidas
+```
+
+### 2. Preparación para IA Avanzada (Mythos)
+
+```
+🤖 PREPARACIÓN ANTE MYTHOS:
+├── Participación en iniciativas como Proyecto Glasswing
+├── Inversión en IA defensiva
+├── Reducción de plazos de parcheo
+├── Pruebas de resiliencia contra ataques encadenados
+└── Coordinación con supervisores y proveedores
+```
+
+### 3. Respuesta a Incidentes
+
+```
+🚨 CAPACIDADES CRÍTICAS:
+├── Monitoreo continuo y gestión de alertas
+├── Detección y respuesta en estaciones de trabajo
+├── Correlación de eventos y threat hunting
+├── Aislamiento y contención de equipos comprometidos
+└── Preparación para GDPR y acciones legales
+```
+
+---
+
+## 📋 ACTUALIZACIÓN DE INDICADORES DE COMPROMISO (IOCs)
+
+### Nuevos IOCs Identificados
+
+```
+🔍 IOCs ADICIONALES (MAYO 2026):
+
+1. PATRONES DE VISHING:
+   ├── Aprobaciones MFA inmediatamente después de llamadas telefónicas
+   ├── Exportaciones masivas desde CRM por identidades individuales
+   └── Acceso a datos de IBAN/ID en volumen
+
+2. MALWARE:
+   ├── Lumma Stealer: Infostealer MaaS
+   ├── Amadey Botnet: Distribución de ransomware
+   ├── QuasarRAT: RAT de código abierto
+   └── QBot: Troyano bancario
+
+3. OBJETIVOS:
+   ├── Sector telecomunicaciones (prioritario)
+   ├── Sector financiero (creciente)
+   └── Infraestructuras críticas
+```
+
+---
+
+## 🔮 PROYECCIONES Y TENDENCIAS A CORTO PLAZO
+
+### 1. Lo que Viene (Junio-Julio 2026)
+
+```
+🔮 PROYECCIÓN DE AMENAZAS:
+
+├── Ransomware continuará su aumento (48% interanual en mayo)
+├── Vishing se consolidará como vector principal
+├── Mythos y modelos de IA avanzada transformarán el panorama
+├── Sector telecomunicaciones seguirá siendo objetivo prioritario
+├── Aumento de ataques sincronizados a múltiples organizaciones
+└── Mayor presión regulatoria (GDPR, NIS2, CSA2)
+```
+
+### 2. Riesgos Sistémicos Identificados
+
+```
+⚠️ RIESGOS SISTÉMICOS:
+
+1. Dependencia tecnológica:
+   └── Pocos proveedores críticos → Riesgo de fallo sistémico
+
+2. IA ofensiva (Mythos):
+   └── Capacidad de encadenar vulnerabilidades → Ataques sincronizados
+
+3. Exclusión europea:
+   └── Europa fuera del Proyecto Glasswing → Asimetría defensiva
+
+4. MFA basado en push:
+   └── Vulnerable a vishing → Falsas sensación de seguridad
+
+
+## 📝 NOTAS FINALES
+
+Este informe secundario confirma y amplía las conclusiones del dossier principal:
+
+1. **El vishing es el vector más subestimado**: Los ataques a Odido y Charter Communications comparten el mismo patrón. El MFA push no es suficiente.
+
+2. **Mythos representa un cambio de paradigma**: La capacidad de encadenar vulnerabilidades de forma autónoma transforma el panorama de amenazas.
+
+3. **El ransomware resurge con fuerza**: Aumento del 48% interanual en mayo de 2026.
+
+4. **Las telecomunicaciones están en el punto de mira**: Múltiples ataques a operadores europeos y americanos confirman la tendencia.
+
+5. **La preparación es clave**: Se abre una ventana limitada para la preparación antes de que Mythos y la IA avanzada sean de uso generalizado.
+
+
+**Fin del Informe Secundario**
+
+```
+
+# INFORME COMPLEMENTARIO: CORRELACIÓN KILLNET Y SHINYHUNTERS
+
+## 🔍 ANÁLISIS DE LA RELACIÓN ENTRE AMENAZAS
+
+### 1. KILLNET: Grupo de Hacktivismo Pro-Ruso
+
+Killnet es un grupo de hacktivismo de origen ruso que opera desde 2022, caracterizado por su fuerte orientación política y su oposición a Ucrania y sus aliados de la OTAN .
+
+**Perfil del Grupo:**
+
+```
+📋 IDENTIFICACIÓN:
+├── Origen: Rusia
+├── Motivación: Geopolítica (Pro-Rusia)
+├── Actividad Principal: DDoS, Desinformación
+├── Nivel de Amenaza: Alto
+└── Estilo: Hacktivismo abierto y público
+```
+
+**Operaciones Clave Documentadas:**
+Killnet ha realizado ataques DDoS contra múltiples países que apoyan a Ucrania, incluyendo Italia, Alemania, Rumanía y Estados Unidos . En 2022, Killnet lanzó ataques contra sitios gubernamentales italianos como el Senado y el Instituto Superior de Salud, en respuesta al apoyo italiano a Ucrania .
+
+El grupo opera a través de múltiples canales de Telegram, incluyendo "Legion Russia", que funciona como un proyecto subordinado a Killnet .
+
+**Estructura Organizativa:**
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    KILLNET ECOSYSTEM                        │
+│                                                             │
+│  ┌─────────────────────────────────────────────────────┐    │
+│  │              KILLNET (Canal Principal)              │    │
+│  │              (Fundado: Enero 2022)                  │    │
+│  └─────────────────────────────────────────────────────┘    │
+│                          │                                  │
+│         ┌────────────────┼────────────────────┐             │
+│         │                │                    │             │
+│  ┌──────▼──────┐  ┌──────▼──────┐  ┌─────────▼────────┐     │
+│  │  Legion     │  │  Cyber_War  │  │  NoName057(16)   │     │
+│  │  Russia     │  │  (Feb 2022) │  │  (Grupo aliado)  │     │
+│  └─────────────┘  └─────────────┘  └──────────────────┘     │
+│                                                             │
+│  Objetivos Principales:                                     │
+│  - Países de la OTAN                                        │
+│  - Apoyadores de Ucrania                                    │
+│  - Infraestructuras críticas                                │
+└─────────────────────────────────────────────────────────────┘
+```
+
+---
+
+### 2. SHINYHUNTERS: Grupo de Cibercrimen Comercial
+
+ShinyHunters es un grupo de cibercrimen formado en 2019, orientado al lucro mediante extorsión y ransomware .
+
+**Perfil del Grupo:**
+```
+📋 IDENTIFICACIÓN:
+├── Origen: Internacional (posiblemente Países Bajos)
+├── Motivación: Lucro (Ransomware/Extorsión)
+├── Actividad Principal: Robo de datos, Ransomware
+├── Nivel de Amenaza: Muy Alto
+└── Estilo: Clandestino y comercial
+```
+
+**Operaciones Clave Documentadas:**
+- **Odido Telecom (Febrero 2026):** Robo de datos de 6.2 millones de clientes mediante vishing 
+- **Charter Communications (Abril-Mayo 2026):** Robo de 4.9 millones de registros mediante vishing 
+- **Salesforce Campaigns (2025-2026):** Ataques a 91+ organizaciones mediante OAuth abuse 
+
+**Tácticas Características:**
+```
+🔍 TTPs DE SHINYHUNTERS:
+├── Vishing (phishing por voz) como vector principal
+├── Engaño a empleados de helpdesk
+├── Abuso de OAuth y SSO
+├── Exportación masiva desde Salesforce
+├── Extorsión con publicación de datos
+└── MFA bypass mediante ingeniería social
+```
+
+---
+
+### 3. LA RELACIÓN ENTRE KILLNET Y SHINYHUNTERS
+
+**Pregunta Clave: ¿Hay conexión directa entre ambos grupos?**
+
+**Respuesta:** No existe evidencia concluyente de una relación operativa directa entre Killnet y ShinyHunters. Sin embargo, ambos grupos han sido mencionados en contextos similares y existen múltiples puntos de conexión que sugieren cierta superposición.
+
+#### 3.1 Contextos de Mención Conjunta
+
+| Contexto | Killnet | ShinyHunters | Fuente |
+|----------|---------|--------------|--------|
+| CISA Alert (2022) | ✅ Mencionado | ❌ No |  |
+| Ataques a Telecom (2026) | ❌ No | ✅ Sí |  |
+| Ataques a Infraestructura (2026) | ✅ Sí | ❌ No |  |
+| Foros de Hacking | ✅ Puede | ✅ Activo | - |
+
+#### 3.2 Similitudes y Diferencias
+
+```
+┌────────────────────────────────────────────────────────────┐
+│              COMPARATIVA DE GRUPOS                         │
+├────────────────────────────────────────────────────────────┤
+│  ASPECTO          │  KILLNET          │  SHINYHUNTERS      │
+│───────────────────┼───────────────────┼────────────────────│
+│  Motivación       │  Política/Rusia   │  Lucro/Extorsión   │
+│  Origen           │  Rusia            │  Internacional     │
+│  Actividad        │  DDoS             │  Robo de datos     │
+│  Estilo           │  Público          │  Clandestino       │
+│  Vector Principal │  DDoS             │  Vishing/OAuth     │
+│  Alianzas         │  Russian Legion   │  Scattered Lapsus$ │
+│  Nivel            │  Alto             │  Muy Alto          │
+└────────────────────────────────────────────────────────────┘
+```
+
+#### 3.3 Posibles Puntos de Conexión
+
+1. **Ecosistema de Cibercrimen Compartido**
+   - Ambos grupos operan en los mismos canales de Telegram y foros de hacking
+   - Ambos son mencionados por agencias de inteligencia como CISA y FortiGuard 
+
+2. **Coordinación con Russian Legion**
+   - NoName057(16) está aliado con Killnet 
+   - NoName057(16) también es mencionado junto a Russian Legion 
+   - ShinyHunters opera en un ecosistema similar pero no se ha documentado su alianza con Russian Legion
+
+3. **Diferencias Clave**
+   - **Killnet:** Opera abiertamente con fines políticos, realizando DDoS y propaganda
+   - **ShinyHunters:** Opera clandestinamente con fines de lucro, realizando extorsión
+
+---
+
+### 4. CORRELACIONES INDIRECTAS
+
+#### 4.1 A través de Scattered Lapsus$ Hunters
+
+ShinyHunters forma parte de la alianza "Scattered Lapsus$ Hunters", que incluye a Scattered Spider y LAPSUS$ . Esta alianza se enfoca en ataques comerciales, principalmente a plataformas SaaS.
+
+Killnet no está documentado como parte de esta alianza, que opera con un enfoque más comercial.
+
+#### 4.2 A través de Russian Legion
+
+Russian Legion incluye a grupos como Cardinal, The White Pulse, y NoName057(16) . Estos grupos están alineados con Rusia y realizan DDoS.
+
+ShinyHunters, siendo un grupo comercial, no está documentado como parte de Russian Legion.
+
+#### 4.3 Objetivos Comunes
+
+Ambos grupos han atacado a empresas estadounidenses:
+- **Killnet:** Ataques a aeropuertos estadounidenses (2022) 
+- **ShinyHunters:** Ataques a Charter Communications (2026) 
+
+---
+
+### 5. CONCLUSIÓN: ¿RELACIÓN DIRECTA?
+
+**Respuesta Final:** No existe evidencia de una relación operativa directa entre Killnet y ShinyHunters. Los grupos tienen motivaciones diferentes y operan de manera independiente. Sin embargo, ambos forman parte del mismo ecosistema de ciberamenazas:
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│              ECOSISTEMA DE AMENAZAS 2026                    │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│  ┌─────────────────────────────────────────────────────┐    │
+│  │              GRUPOS PRO-RUSOS                       │    │
+│  │  Killnet → Russian Legion → NoName057(16)           │    │
+│  └─────────────────────────────────────────────────────┘    │
+│                                                             │
+│  ┌─────────────────────────────────────────────────────┐    │
+│  │              CIBERCRIMEN COMERCIAL                  │    │
+│  │  ShinyHunters → Scattered Lapsus$ Hunters           │    │
+│  └─────────────────────────────────────────────────────┘    │
+│                                                             │
+│  ┌─────────────────────────────────────────────────────┐    │
+│  │              PUNTOS DE CONTACTO                     │    │
+│  │  - Canales de Telegram compartidos                  │    │
+│  │  - Foros de hacking (BreachForums)                  │    │
+│  │  - Cooperación tácita (DDoS + Extorsión)            │    │
+│  └─────────────────────────────────────────────────────┘    │
+└─────────────────────────────────────────────────────────────┘
+```
+
+**Principales Hallazgos:**
+
+1. **No hay evidencia de colaboración directa:** Killnet y ShinyHunters operan con diferentes motivaciones y tácticas.
+
+2. **Sin embargo, ambos están en el mismo ecosistema:** Comparten canales de comunicación, foros de hacking y objetivos (empresas estadounidenses).
+
+3. **Posible cooperación tácita:** Mientras Killnet lanza ataques DDoS contra un objetivo, ShinyHunters podría explotar la distracción para robar datos.
+
+4. **Diferentes perfiles de amenaza:**
+   - Killnet: **Amenaza política** con DDoS y desinformación
+   - ShinyHunters: **Amenaza económica** con ransomware y extorsión
+
+---
+
+**Este informe complementa el dossier principal de CTI, proporcionando el análisis de correlación solicitado entre Killnet y ShinyHunters.**
+
 **Fin del Informe**
 
 ---
+
 *Este informe ha sido generado por [CONDOR2026] para fines de inteligencia de amenazas y ciberseguridad. 
  La información contenida en este documento se basa en fuentes de código abierto y no debe ser utilizada para actividades ilegales.*
