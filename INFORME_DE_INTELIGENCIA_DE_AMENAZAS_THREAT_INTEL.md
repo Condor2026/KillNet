@@ -2,6 +2,8 @@
 ## DOSSIER PROFESIONAL DE CIBERSEGURIDAD - CTI
 ### Período de Monitoreo: 24-29 de Mayo de 2026
 
+![TheCondor](infografiaKillnet3.png)
+
 ---
 
 ## ÍNDICE
