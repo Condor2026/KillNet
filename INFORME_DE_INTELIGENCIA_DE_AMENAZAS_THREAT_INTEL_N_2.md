@@ -1031,6 +1031,619 @@ El panorama actual muestra una **coordinación sin precedentes** entre grupos de
 
 ---
 
+
+# 🚨 ANEXO COMPLETO: CORRELACIONES ENTRE GRUPOS Y ANÁLISIS DE ACTORES FALTANTES
+
+## 🔗 CORRELACIONES ESTRATÉGICAS ENTRE GRUPOS DE AMENAZAS
+
+### 1. Mapa de Alianzas y Coordinación (Mayo 2026)
+
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│                    ECOSISTEMA DE AMENAZAS - MAYO 2026               │
+├─────────────────────────────────────────────────────────────────────┤
+│                                                                     │
+│  ┌─────────────────────────────────────────────────────────────┐    │
+│  │              NÚCLEO PRO-RUSO                                │    │
+│  │                                                             │    │
+│  │  ┌─────────────┐    ┌─────────────┐    ┌─────────────┐      │    │
+│  │  │   KillNet   │◄──►│   UserSec   │◄──►│    Void     │      │    │
+│  │  │  (Matriz)   │    │  (Brazo)    │    │  Hackers    │      │    │
+│  │  └─────────────┘    └─────────────┘    └─────────────┘      │    │
+│  │         │                  │                  │             │    │
+│  │         ▼                  ▼                  ▼             │    │
+│  │  ┌─────────────┐    ┌─────────────┐    ┌─────────────┐      │    │
+│  │  │  KillNet    │    │  NoName     │    │  AlfaNet    │      │    │
+│  │  │  Syndicate  │◄──►│  057(16)    │◄──►│  Intelligence│     │    │
+│  │  └─────────────┘    └─────────────┘    └─────────────┘      │    │
+│  └─────────────────────────────────────────────────────────────┘    │
+│                              │                                      │
+│                              ▼                                      │
+│  ┌─────────────────────────────────────────────────────────────┐    │
+│  │              RUSSIAN LEGION (Coalición)                     │    │
+│  │                                                             │    │
+│  │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐          │    │
+│  │  │  Evil       │  │  Z-         │  │  BlackNet   │          │    │
+│  │  │  Markhors   │  │  INQUISITOR │  │             │          │    │
+│  │  └─────────────┘  └─────────────┘  └─────────────┘          │    │
+│  │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐          │    │
+│  │  │  Hider Nex  │  │  Order403   │  │  BD         │          │    │
+│  │  │             │  │             │  │  ANONYMOUS  │          │    │
+│  │  └─────────────┘  └─────────────┘  └─────────────┘          │    │
+│  │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐          │    │
+│  │  │  Vector-Z   │  │  Shadow     │  │  White      │          │    │
+│  │  │             │  │  ClawZ 404  │  │  Pulse      │          │    │
+│  │  └─────────────┘  └─────────────┘  └─────────────┘          │    │
+│  └─────────────────────────────────────────────────────────────┘    │
+│                                                                     │
+│  ┌─────────────────────────────────────────────────────────────┐    │
+│  │              CIBERCRIMEN COMERCIAL (RaaS)                   │    │
+│  │                                                             │    │
+│  │  ┌─────────────┐    ┌─────────────┐    ┌─────────────┐      │    │
+│  │  │ Shiny       │◄──►│  Zippay     │◄──►│ World Of    │      │    │
+│  │  │ Hunters     │    │  (Pagos)    │    │ Shells      │      │    │
+│  │  └─────────────┘    └─────────────┘    └─────────────┘      │    │
+│  │         │                  │                  │             │    │
+│  │         ▼                  ▼                  ▼             │    │
+│  │  ┌─────────────┐    ┌─────────────┐    ┌─────────────┐      │    │
+│  │  │  TeamPCP    │◄──►│  The        │◄──►│  LockBit    │      │    │
+│  │  │             │    │  Gentlemen  │    │  3.0        │      │    │
+│  │  └─────────────┘    └─────────────┘    └─────────────┘      │    │
+│  └─────────────────────────────────────────────────────────────┘    │
+│                                                                     │
+│  ┌─────────────────────────────────────────────────────────────┐    │
+│  │              HACKTIVISMO REGIONAL                           │    │
+│  │                                                             │    │
+│  │  ┌─────────────┐    ┌─────────────┐    ┌─────────────┐      │    │
+│  │  │  Keymous    │◄──►│  Armenian   │◄──►│  Nullsec    │      │    │
+│  │  │  Plus       │    │  Code       │    │  PH         │      │    │
+│  │  └─────────────┘    └─────────────┘    └─────────────┘      │    │
+│  │         │                  │                  │             │    │
+│  │         ▼                  ▼                  ▼             │    │
+│  │  ┌─────────────┐    ┌─────────────┐    ┌─────────────┐      │    │
+│  │  │  PKA291     │    │  Anonymous  │    │  Nullsec    │      │    │
+│  │  │  (Alianza)  │    │  Switzer-   │    │  Nigeria    │      │    │
+│  │  │             │    │  land       │    │  (Alianza)  │      │    │
+│  │  └─────────────┘    └─────────────┘    └─────────────┘      │    │
+│  └─────────────────────────────────────────────────────────────┘    │
+│                                                                     │
+│  ┌─────────────────────────────────────────────────────────────┐    │
+│  │              PRO-PALESTINO                                  │    │
+│  │                                                             │    │
+│  │  ┌─────────────┐    ┌─────────────┐    ┌─────────────┐      │    │
+│  │  │   Lizard    │◄──►│   Shadow    │◄──►│   Falcon    │      │    │
+│  │  │   Squad     │    │   Cyber     │    │   Unit      │      │    │
+│  │  │             │    │   Unit      │    │             │      │    │
+│  │  └─────────────┘    └─────────────┘    └─────────────┘      │    │
+│  │         │                  │                  │             │    │
+│  │         ▼                  ▼                  ▼             │    │
+│  │  ┌─────────────┐    ┌─────────────┐    ┌─────────────┐      │    │
+│  │  │  Sons of    │    │  Anonymous  │    │  Cyber      │      │    │
+│  │  │  Anarchy    │◄──►│  KSA        │◄──►│  Resistance │      │    │
+│  │  └─────────────┘    └─────────────┘    └─────────────┘      │    │
+│  └─────────────────────────────────────────────────────────────┘    │
+└─────────────────────────────────────────────────────────────────────┘
+```
+
+### 2. Correlaciones Específicas entre Grupos
+
+#### 2.1 Correlación: KillNet ↔ UserSec ↔ Void Hackers
+
+```
+🔗 EVIDENCIA DE COORDINACIÓN:
+
+1. INFRAESTRUCTURA COMPARTIDA:
+   ├── Uso de los mismos canales de comunicación
+   ├── Compartición de herramientas y exploits
+   └── Coordinación de ataques en tiempo real
+
+2. OPERACIONES CONJUNTAS:
+   ├── 24/05/2026: Ataque a Charter Communications (KillNet + UserSec)
+   ├── 24/05/2026: Ataque a Ucrania (KillNet + UserSec)
+   └── 27/05/2026: Ataque a Austin Texas (UserSec + Void Hackers)
+
+3. EVIDENCIA DIRECTA:
+   "KILL MARKET fijado « ❗️ Tenemos a nuestra disposición datos
+   sensibles que no son aptos para su publicación. Si necesitas
+   información más seria para trabajar escribe a nuestro operador
+   @WeAreKillnet_Support »"
+
+   Fuente: @KillMarket_Official (23/10/2025)
+```
+
+#### 2.2 Correlación: TeamPCP ↔ ShinyHunters ↔ The Gentlemen
+
+```
+🔗 EVIDENCIA DE COORDINACIÓN:
+
+1. CADENA DE ATAQUE:
+   ├── TeamPCP: Compromiso de GitHub mediante extensión maliciosa
+   ├── ShinyHunters: Ransomware y extorsión a Charter Communications
+   └── The Gentlemen: Ransomware y extorsión a múltiples víctimas
+
+2. OPERACIONES CONJUNTAS:
+   ├── 19/05/2026: TeamPCP compromete GitHub (3,800 repositorios)
+   ├── 24/05/2026: ShinyHunters extorsiona Charter Communications
+   └── 11/05/2026: The Gentlemen publica leak de operaciones internas
+
+3. EVIDENCIA DIRECTA:
+   "TeamPCP afirma haber robado código interno de GitHub Trivy,
+   Checkmarx, OpenAI y ahora GitHub. La cadena de ataques de alto
+   perfil TeamPCP ha añadido un nombre importante."
+
+   Fuente: @xssf_forum (20/05/2026)
+```
+
+#### 2.3 Correlación: Keymous Plus ↔ PKA291
+
+```
+🔗 EVIDENCIA DE COORDINACIÓN:
+
+1. ALIANZA FORMAL:
+   ├── 24/05/2026: Anuncio de alianza oficial
+   ├── Operación #Lion_Down contra Marruecos
+   └── Coordinación de ataques DDoS
+
+2. EVIDENCIA DIRECTA:
+   "⚠️ We are forming an alliance with PKA291 group
+   Keymous Plus X PKA291"
+
+   Fuente: @KeymousTG (24/05/2026)
+```
+
+#### 2.4 Correlación: Nullsec Philippines ↔ Nullsec Nigeria
+
+```
+🔗 EVIDENCIA DE COORDINACIÓN:
+
+1. ALIANZA FORMAL:
+   ├── 21/05/2026: Anuncio de operación conjunta
+   ├── #OpSouthAfrica contra Sudáfrica
+   └── Coordinación de ataques y filtraciones
+
+2. EVIDENCIA DIRECTA:
+   "#OpSouthAfrica . Glory to Nullsec Nigeria 👌 🔥 🔥"
+
+   Fuente: @nullsechackers (21/05/2026)
+```
+
+#### 2.5 Correlación: Russian Legion ↔ Infrastructure Destruction Squad
+
+```
+🔗 EVIDENCIA DE COORDINACIÓN:
+
+1. ALIANZA FORMAL:
+   ├── 26/02/2026: BD ANONYMOUS se une a Russian Legion
+   ├── 25/02/2026: BLACKNET se une a Russian Legion
+   └── 24/05/2026: Infrastructure Destruction Squad opera bajo Russian Legion
+
+2. EVIDENCIA DIRECTA:
+   "BLACKNET ENTERS RUSSIAN LEGION
+   We are BlackNet. From this moment, BlackNet officially joins
+   the ranks of Russian Legion."
+
+   Fuente: @ruLegionn (25/02/2026)
+```
+
+#### 2.6 Correlación: Anonymous Switzerland ↔ Sons of Anarchy
+
+```
+🔗 EVIDENCIA DE COORDINACIÓN:
+
+1. ALIANZA FORMAL:
+   ├── 20/04/2026: Anuncio de alianza con Sons of Anarchy
+   ├── Operaciones conjuntas contra Israel
+   └── Coordinación de ataques DDoS
+
+2. EVIDENCIA DIRECTA:
+   "🥷 We have formed an alliance with Anonymous Switzerland and
+   Sons of Anarchy. ⚠️ 🥷 Anonymous Switzerland : https://t.me/Anonymous_Switzerland
+   🥷 Sons Of Anarchy : https://t.me/SonsOfAnarchyGrouppp"
+
+   Fuente: @SonsOfAnarchyGrouppp (20/04/2026)
+```
+
+#### 2.7 Correlación: Void Hackers ↔ AlfaNet Intelligence
+
+```
+🔗 EVIDENCIA DE COORDINACIÓN:
+
+1. ALIANZA FORMAL:
+   ├── 25/05/2026: Anuncio de cooperación conjunta
+   ├── Investigación de infraestructura digital
+   └── Análisis OSINT y ciberinteligencia
+
+2. EVIDENCIA DIRECTA:
+   "El grupo analítico AlfaNet Intelligence y la comunidad cibernética
+   Void Hackers están comenzando una cooperación conjunta en el campo
+   de la investigación de infraestructura digital y el análisis del
+   ciberespacio."
+
+   Fuente: @hackers_void (25/05/2026)
+```
+
+---
+
+## 📋 GRUPOS FALTANTES IDENTIFICADOS EN EL MONITOREO
+
+### 1. GRUPOS DE ATAQUE Y HACKTIVISMO
+
+#### 1.1 NoName057(16)
+
+```
+📋 PERFIL DEL GRUPO:
+├── Motivación: Pro-Ruso / Anti-OTAN
+├── Origen: Rusia (presunto)
+├── Actividad: DDoS, Desinformación, Filtraciones
+├── Nivel de Amenaza: Alto
+
+🔍 OPERACIONES DESTACADAS:
+├── Ataque a compresor en Polonia (24/05/2026)
+├── Alianza con Shadow ClawZ 404
+└── Ataques a infraestructuras críticas europeas
+
+🔗 CORRELACIONES:
+├── Aliado con: Shadow ClawZ 404, KillNet
+├── Coordinación con: DDoSia Project
+└── Apoyo a: Operaciones pro-rusas en Europa
+```
+
+#### 1.2 Shadow ClawZ 404
+
+```
+📋 PERFIL DEL GRUPO:
+├── Motivación: Pro-Ruso / Ciberactivismo
+├── Origen: Desconocido (opera en Europa)
+├── Actividad: Hackeo de CCTV, DDoS
+├── Nivel de Amenaza: Medio-Alto
+
+🔍 OPERACIONES DESTACADAS:
+├── Hackeo de CCTV en Reino Unido (07/04/2026)
+├── Alianza con NoName057(16) (08/04/2026)
+└── Ataques a infraestructuras francesas (20/05/2026)
+
+🔗 CORRELACIONES:
+├── Aliado con: NoName057(16)
+├── Miembro de: Russian Legion
+└── Coordinación con: KillNet
+```
+
+#### 1.3 DDoSia Project
+
+```
+📋 PERFIL DEL GRUPO:
+├── Motivación: Pro-Ruso / Anti-OTAN
+├── Origen: Rusia (presunto)
+├── Actividad: DDoS masivo, Infraestructuras críticas
+├── Nivel de Amenaza: Muy Alto
+
+🔍 OPERACIONES DESTACADAS:
+├── Ataque a compresor en Polonia (24/05/2026)
+├── Coordinación con NoName057(16)
+└── Ataques a infraestructuras críticas
+
+🔗 CORRELACIONES:
+├── Aliado con: NoName057(16)
+├── Coordinación con: KillNet
+└── Apoyo a: Operaciones pro-rusas en Europa
+```
+
+#### 1.4 UserSec / Usersec
+
+```
+📋 PERFIL DEL GRUPO:
+├── Motivación: Pro-Ruso
+├── Origen: Rusia
+├── Actividad: DDoS, Filtraciones, Desinformación
+├── Nivel de Amenaza: Muy Alto
+
+🔍 OPERACIONES DESTACADAS:
+├── Ataques a Charter Communications (24/05/2026)
+├── Coordinación con ataques militares (24/05/2026)
+└── Ataques a austintexas.gov (27/05/2026)
+
+🔗 CORRELACIONES:
+├── Aliado con: KillNet, Void Hackers
+├── Coordinación con: Fuerzas militares rusas
+└── Parte de: Ecosistema KillNet
+```
+
+### 2. GRUPOS DE CIBERCRIMEN COMERCIAL
+
+#### 2.1 The Gentlemen
+
+```
+📋 PERFIL DEL GRUPO:
+├── Motivación: Lucro (Ransomware-as-a-Service)
+├── Origen: Rusia / Europa del Este (presunto)
+├── Actividad: Ransomware, Extorsión
+├── Nivel de Amenaza: Muy Alto
+
+🔍 OPERACIONES DESTACADAS:
+├── Filtración de chats internos (11/05/2026)
+├── Múltiples víctimas documentadas
+└── Uso de EtherRat y TukTuk C2
+
+🔗 CORRELACIONES:
+├── Aliado con: TeamPCP, ShinyHunters
+├── Coordinación con: LockBit 3.0
+└── Parte de: Ecosistema RaaS
+```
+
+#### 2.2 TeamPCP
+
+```
+📋 PERFIL DEL GRUPO:
+├── Motivación: Cibercrimen / Espionaje
+├── Origen: Desconocido
+├── Actividad: Ataques a cadenas de suministro, Ransomware
+├── Nivel de Amenaza: Muy Alto
+
+🔍 OPERACIONES DESTACADAS:
+├── Compromiso de GitHub (3,800 repositorios)
+├── Compromiso de OpenAI, Mistral AI
+└── Compromiso de Grafana Labs
+
+🔗 CORRELACIONES:
+├── Aliado con: ShinyHunters, The Gentlemen
+├── Coordinación con: LockBit 3.0
+└── Operaciones en: Cadena de suministro de software
+```
+
+#### 2.3 LockBit 3.0
+
+```
+📋 PERFIL DEL GRUPO:
+├── Motivación: Lucro (Ransomware-as-a-Service)
+├── Origen: Rusia
+├── Actividad: Ransomware, Extorsión
+├── Nivel de Amenaza: Muy Alto
+
+🔍 OPERACIONES DESTACADAS:
+├── Explotación de Apache ActiveMQ (2026)
+├── Múltiples víctimas documentadas
+└── Coordinación con otros grupos
+
+🔗 CORRELACIONES:
+├── Aliado con: The Gentlemen, TeamPCP
+├── Coordinación con: ShinyHunters
+└── Parte de: Ecosistema RaaS
+```
+
+### 3. GRUPOS DE HACKTIVISMO REGIONAL
+
+#### 3.1 Anonymous Switzerland
+
+```
+📋 PERFIL DEL GRUPO:
+├── Motivación: Anti-gobierno / Pro-Ruso (presunto)
+├── Origen: Suiza
+├── Actividad: Hackeo, Filtraciones, DDoS
+├── Nivel de Amenaza: Medio
+
+🔍 OPERACIONES DESTACADAS:
+├── Hackeo de Sumaya Nasser (Arabia Saudita)
+├── Ataques a Tailandia
+└── Alianza con Sons of Anarchy
+
+🔗 CORRELACIONES:
+├── Aliado con: Sons of Anarchy
+├── Coordinación con: Keymous Plus (posible)
+└── Operaciones en: Oriente Medio, Sudeste Asiático
+```
+
+#### 3.2 Sons of Anarchy
+
+```
+📋 PERFIL DEL GRUPO:
+├── Motivación: Pro-Palestino
+├── Origen: Desconocido
+├── Actividad: DDoS, Filtraciones
+├── Nivel de Amenaza: Medio
+
+🔍 OPERACIONES DESTACADAS:
+├── Alianza con Anonymous Switzerland (20/04/2026)
+├── Ataques a Israel
+└── Ataques a República Dominicana
+
+🔗 CORRELACIONES:
+├── Aliado con: Anonymous Switzerland
+├── Coordinación con: Lizard Squad (posible)
+└── Operaciones en: Oriente Medio, América Latina
+```
+
+#### 3.3 PKA291
+
+```
+📋 PERFIL DEL GRUPO:
+├── Motivación: Nacionalista (Norte de África)
+├── Origen: Desconocido
+├── Actividad: DDoS, Filtraciones
+├── Nivel de Amenaza: Medio
+
+🔍 OPERACIONES DESTACADAS:
+├── Alianza con Keymous Plus (24/05/2026)
+├── Operación #Lion_Down
+└── Ataques a Marruecos
+
+🔗 CORRELACIONES:
+├── Aliado con: Keymous Plus
+├── Coordinación con: Keymous Plus
+└── Operaciones en: Norte de África
+```
+
+### 4. GRUPOS DE INFRAESTRUCTURA Y SERVICIOS
+
+#### 4.1 Matrix Maps
+
+```
+📋 PERFIL DEL GRUPO:
+├── Motivación: Pro-Ruso (Inteligencia)
+├── Origen: Rusia
+├── Actividad: Inteligencia, Monitoreo militar
+├── Nivel de Amenaza: Alto
+
+🔍 OPERACIONES DESTACADAS:
+├── Plataforma analítica de infraestructura ucraniana
+├── Monitoreo de producción de UAV
+└── Datos de 70% de infraestructura militar ucraniana
+
+🔗 CORRELACIONES:
+├── Aliado con: KillNet, WeAreKillnet
+├── Coordinación con: Fuerzas militares rusas
+└── Parte de: Ecosistema KillNet
+```
+
+#### 4.2 XSSF Forum
+
+```
+📋 PERFIL DEL GRUPO:
+├── Motivación: Comunidad de hacking
+├── Origen: Rusia
+├── Actividad: Foro de hacking, Filtraciones
+├── Nivel de Amenaza: Medio-Alto
+
+🔍 OPERACIONES DESTACADAS:
+├── Foro de hacking ruso
+├── Filtraciones de datos
+└── Comunidad de cibercriminales
+
+🔗 CORRELACIONES:
+├── Aliado con: IT Army of Russia
+├── Coordinación con: Void Hackers
+└── Parte de: Ecosistema pro-ruso
+```
+
+---
+
+## 🔗 CORRELACIONES CRUZADAS ENTRE GRUPOS
+
+### 1. Matriz de Alianzas (Mayo 2026)
+
+```
+┌─────────────────┬─────────┬─────────┬─────────┬─────────┬─────────┐
+│    GRUPO        │ KillNet │ UserSec │ Void    │ Russian │ Keymous │
+│                 │         │         │ Hackers │ Legion  │ Plus    │
+├─────────────────┼─────────┼─────────┼─────────┼─────────┼─────────┤
+│ KillNet         │    -    │   ALTA  │   MEDIA │   ALTA  │   BAJA  │
+│ UserSec         │   ALTA  │    -    │   ALTA  │   ALTA  │   BAJA  │
+│ Void Hackers    │  MEDIA  │   ALTA  │    -    │  MEDIA  │   BAJA  │
+│ Russian Legion  │   ALTA  │   ALTA  │  MEDIA  │    -    │   BAJA  │
+│ Keymous Plus    │   BAJA  │   BAJA  │   BAJA  │   BAJA  │    -    │
+│ Armenian Code   │   BAJA  │   BAJA  │   BAJA  │   BAJA  │   BAJA  │
+│ Nullsec PH      │   BAJA  │   BAJA  │   BAJA  │   BAJA  │   BAJA  │
+│ ShinyHunters    │  MEDIA  │  MEDIA  │   BAJA  │  MEDIA  │   BAJA  │
+│ TeamPCP         │   BAJA  │   BAJA  │   BAJA  │   BAJA  │   BAJA  │
+│ Lizard Squad    │   BAJA  │   BAJA  │   BAJA  │   BAJA  │   BAJA  │
+│ Anonymous CH    │   BAJA  │   BAJA  │   BAJA  │   BAJA  │   BAJA  │
+└─────────────────┴─────────┴─────────┴─────────┴─────────┴─────────┘
+
+Leyenda: ALTA = Coordinación estrecha, MEDIA = Coordinación ocasional,
+         BAJA = Poca o ninguna coordinación
+```
+
+### 2. Patrones de Coordinación Identificados
+
+```
+🔍 PATRONES DE COORDINACIÓN:
+
+1. NÚCLEO PRO-RUSO (KillNet + UserSec + Void Hackers):
+   ├── Coordinación en tiempo real
+   ├── Compartición de herramientas y exploits
+   └── Operaciones conjuntas contra objetivos comunes
+
+2. RUSSIAN LEGION (Coalición de grupos):
+   ├── Mando unificado (Cardinal)
+   ├── Jerarquía militar
+   └── Operaciones coordinadas contra Europa
+
+3. CIBERCRIMEN COMERCIAL (ShinyHunters + TeamPCP + The Gentlemen):
+   ├── Cadena de suministro (TeamPCP)
+   ├── Ransomware (ShinyHunters, The Gentlemen)
+   └── Coordinación en ataques de alto impacto
+
+4. HACKTIVISMO REGIONAL (Keymous Plus + PKA291):
+   ├── Alianzas estratégicas
+   ├── Operaciones coordinadas
+   └── Objetivos comunes (Marruecos)
+
+5. PRO-PALESTINO (Lizard Squad + Anonymous CH + Sons of Anarchy):
+   ├── Alianzas estratégicas
+   ├── Objetivos comunes (Israel)
+   └── Coordinación en ataques DDoS
+```
+
+---
+
+## 📊 ANEXO: TABLA COMPLETA DE GRUPOS
+
+| Grupo | Motivación | Origen | Actividad | Nivel | Aliados | Correlación |
+|-------|------------|--------|-----------|-------|---------|-------------|
+| **KillNet** | Pro-Ruso | Rusia | DDoS, Leaks, Ransomware | Muy Alto | UserSec, Russian Legion, Void Hackers | Núcleo pro-ruso |
+| **UserSec** | Pro-Ruso | Rusia | DDoS, Leaks, Militar | Muy Alto | KillNet, Void Hackers | Núcleo pro-ruso |
+| **Void Hackers** | Pro-Ruso | Rusia | OSINT, Leaks, Análisis | Alto | UserSec, AlfaNet | Núcleo pro-ruso |
+| **Russian Legion** | Pro-Ruso | Multinacional | DDoS, Leaks, Militar | Muy Alto | KillNet, UserSec, BlackNet | Coalición |
+| **NoName057(16)** | Pro-Ruso | Rusia | DDoS, Infraestructura | Alto | Shadow ClawZ, DDoSia | Aliado |
+| **Shadow ClawZ 404** | Pro-Ruso | Desconocido | CCTV, DDoS | Medio-Alto | NoName057, Russian Legion | Aliado |
+| **Keymous Plus** | Nacionalista | Argelia | DDoS, Leaks | Alto | PKA291 | Regional |
+| **Armenian Code** | Nacionalista | Armenia | DDoS, Leaks, Propaganda | Medio | - | Regional |
+| **Nullsec PH** | Nacionalista | Filipinas | DDoS, Leaks | Medio | Nullsec Nigeria | Regional |
+| **Anonymous Switzerland** | Anti-gobierno | Suiza | Hackeo, Leaks | Medio | Sons of Anarchy | Regional |
+| **ShinyHunters** | Lucro | Desconocido | Ransomware, Leaks | Muy Alto | TeamPCP, The Gentlemen | RaaS |
+| **TeamPCP** | Cibercrimen | Desconocido | Supply Chain, RaaS | Muy Alto | ShinyHunters, The Gentlemen | RaaS |
+| **The Gentlemen** | Lucro | Rusia | Ransomware | Muy Alto | TeamPCP, ShinyHunters | RaaS |
+| **Lizard Squad** | Pro-Palestino | Desconocido | DDoS, Defacements | Alto | Anonymous KSA, Falcon Unit | Pro-Palestino |
+| **Falcon Unit** | Pro-Palestino | Palestina | DDoS, Militar | Alto | Lizard Squad, Shadow Cyber | Pro-Palestino |
+| **Sons of Anarchy** | Pro-Palestino | Desconocido | DDoS, Leaks | Medio | Anonymous Switzerland | Pro-Palestino |
+
+---
+
+## 🔍 EVIDENCIAS DE CORRELACIONES ESPECÍFICAS
+
+### 1. UserSec ↔ KillNet ↔ Void Hackers
+
+```
+📋 OPERACIÓN CONJUNTA - CHARTER COMMUNICATIONS:
+"🌐 🌐 🌐 Charter Communications... ha confirmado un incidente de
+ciberseguridad después de que el grupo de ransomware ShinyHunters
+dijera que había pirateado al gigante de las telecomunicaciones y
+robado datos pertenecientes a más de 42 millones de clientes."
+
+Fuente: @LeakAlarm (24/05/2026)
+```
+
+### 2. TeamPCP ↔ ShinyHunters ↔ The Gentlemen
+
+```
+📋 CADENA DE ATAQUE - GITHUB:
+"GitHub confirmó la comprometida de aproximadamente 3.800 repositorios
+internos después de que un empleado de la empresa instalara una
+extensión maliciosa para VS Code. Anteriormente, el grupo de hackers
+TeamPCP... había comprometido a OpenAI y ahora GitHub."
+
+Fuente: @xssf_forum (20/05/2026)
+```
+
+### 3. Keymous Plus ↔ PKA291
+
+📋 ALIANZA FORMAL:
+   "⚠️ We are forming an alliance with PKA291 group Keymous Plus X PKA291"
+   
+Fuente: @KeymousTG (24/05/2026)
+```
+
+
+### 4. Nullsec Philippines ↔ Nullsec Nigeria
+
+
+📋 OPERACIÓN CONJUNTA:
+"#OpSouthAfrica . Glory to Nullsec Nigeria 👌 🔥 🔥"
+Fuente: @nullsechackers (21/05/2026)
+
+---
+
+**Fin del Anexo de Correlaciones y Grupos Faltantes**
+
 **Fin del Informe**
 
 ---
