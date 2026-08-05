@@ -2163,5 +2163,4 @@ Ambos grupos han atacado a empresas estadounidenses:
 
 **Fin del Informe**
 
-*Este informe ha sido generado por [CONDOR2026] para fines de inteligencia de amenazas y ciberseguridad.
-La información contenida en este documento se basa en fuentes de código abierto y no debe ser utilizada para actividades ilegales.*
+**Este informe ha sido generado por [CondorR2026] para fines de inteligencia de amenazas y ciberseguridad. La información contenida en este documento se basa en fuentes de código abierto y no debe ser utilizada para actividades ilegales.**
